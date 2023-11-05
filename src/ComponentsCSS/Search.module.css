@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100px;
+    box-shadow: 0px 0px 5px #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    border-radius: 7px;
+    background: #ffffff;
+    margin-bottom: 70px;
+}
+
+select, button {
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background: #e4e1e1d3;
+    cursor: pointer;
+
+}
+
+button {
+    background: #1999d4;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+select {
+    font-size: 18px;
+    padding-left: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+/* select > option {
+    border: none;
+} */

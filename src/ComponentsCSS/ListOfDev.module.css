@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 2px #000;
+    margin-bottom: 3px;
+    height: 140px;
+    padding: 0px 15px;
+}
+
+.type_development {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.proprteis {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.proprteis > span {
+    border-right: 1px solid #000;
+    padding: 0px 5px;
+}
+
+.proprteis > span:last-child {
+    border: none;
+}
+
+.div_check_button {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+
+}
+
+.div_check_button > button {
+    width: 100px;
+    height: 45px;
+    background: none;
+    border: 2px solid #000;
+    border-radius: 45px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.compony_name {
+    width: 150px;
+    font-size: 17px;
+    font-weight: 700;
+    height: 45px
+}
+
+.div_skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_skills > span {
+    padding: 7px;
+    border-radius: 5px;
+    background: #000;
+    color: #ffffff;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.div_skills > span:last-child {
+    margin-right: 0px;
+}
+
+.outer_container {
+  display: flex;
+  width: 100%;
+}
+
+.focuse {
+    display: none;
+    width: 5px;
+    background: #1999d4;
+}
+
+.div_check_button > button:hover {
+    background: #f1f0f070;
+}
+
+.outer_container:hover > .focuse{
+    display: block;
+}

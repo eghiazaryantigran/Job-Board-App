@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eeeaeac6;
+    position: fixed;
+    z-index: 10;
+}
+
+.info_modal_window {
+    width: 700px;
+    height: 500px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #656363;
+    padding: 40px 30px 30px 30px;
+}
+
+.div_close {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.div_close > div > span {
+    font-size: 23px;
+    margin-right: 10px;
+}
+
+.Close_icone {
+    font-size: 23px;
+    color: #8a8383;
+    cursor: pointer;
+}
+
+.About_Dev > div {
+    margin-bottom: 12px;
+}
+
+.About_Dev > div > span {
+    margin-right: 14px;
+}
+
+/* .About_Dev > div:last-child {
+    margin-bottom: 0px;
+} */
+
+.About_Dev > div:last-child > p {
+    margin-bottom: 15px;
+}
+
+.About_Dev > div:last-child > div > span {
+    background: #000;
+    color: #ffffff;
+    padding: 7px 9px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.div_Apply_Button {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.div_Apply_Button > button {
+    width: 100px;
+    height: 45px;
+    background: none;
+    border: 2px solid #000;
+    border-radius: 45px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
